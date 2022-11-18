@@ -16,19 +16,19 @@ body {
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    padding: 80px;
 }
 
 main {
-    position: relative;
     height: 100vh;
+    position: relative;
 }
 
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 90px;
+    transform: translate(-50%, -50%);   
 
     height: 627px;
     width: 311px;
@@ -49,7 +49,7 @@ section#redes-sociais {
 
 section#redes-sociais img {
     width: 50px;
-    margin: 10px;
+    margin: 10px;   
     border-radius: 50%;
     box-shadow: 2px 2px 5pc rgba(0, 0, 0, 0.342);
     box-sizing: border-box;
